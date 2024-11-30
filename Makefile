@@ -1,11 +1,5 @@
 PROJECT_HOME_DIR := ${CURDIR}
 
-build:
-    # Builds a TensorFlow 2 ART docker container
-    # IMPORTANT ! If you have an existing python env folder make sure to first add it to the `.dockerIgnore` \
-    to reduce the size of your the art docker image
-	docker build -t project-art-tf2 .
-
 build1:
 	# Builds a TensorFlow 1 ART docker container
     # IMPORTANT ! If you have an existing python env folder make sure to first add it to the `.dockerIgnore` \
