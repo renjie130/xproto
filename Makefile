@@ -9,7 +9,7 @@ build1:
 run-bash:
 	docker  run --rm -it --name project-art-run-bash -v ${PWD}:/project/ -v ~/.art/:/root/.art/ project-art-tf2  /bin/bash
 
-run-test:
+
 	docker  run --rm --name project-art-run-test -v ${PWD}:/project/ -v ~/.art/:/root/.art/  project-art-tf2
 
 run-pep:
